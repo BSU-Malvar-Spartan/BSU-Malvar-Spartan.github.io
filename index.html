@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="BSU Malvar Spartan — Batangas State University Malvar Campus tech organization driven by innovation, collaboration, and excellence." />
-  <title>BSU Malvar Spartan</title>
+  <meta name="description" content="BSU Malvar Spartan — A learning hub for Batangas State University Malvar Campus students. Explore learning paths, resources, and student accomplishments." />
+  <title>BSU Malvar Spartan — Learning Hub</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,8 +21,10 @@
       </a>
       <nav class="navbar__links" id="nav-links" aria-label="Primary navigation">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#team">Team</a>
+        <a href="#resources">Resources</a>
+        <a href="#learning-paths">Learning Paths</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contribute">Contribute</a>
         <a href="#contact">Contact</a>
       </nav>
       <button class="navbar__toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -40,12 +42,12 @@
         <p class="hero__eyebrow">Batangas State University · Malvar Campus</p>
         <h1 class="hero__title">BSU Malvar <span class="accent">Spartan</span></h1>
         <p class="hero__subtitle">
-          A community of developers, designers, and innovators forging the future through
-          technology, collaboration, and relentless pursuit of excellence.
+          Your community learning hub — explore curated resources, share your learning journey,
+          and celebrate Spartan achievements together.
         </p>
         <div class="hero__cta">
-          <a href="#projects" class="btn btn--primary">View Projects</a>
-          <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer" class="btn btn--outline">GitHub Org →</a>
+          <a href="#learning-paths" class="btn btn--primary">Explore Learning Paths</a>
+          <a href="#contribute" class="btn btn--outline">Share Your Path →</a>
         </div>
       </div>
       <div class="hero__scroll-hint" aria-hidden="true">
@@ -54,23 +56,23 @@
     </section>
 
     <!-- ===== STATS ===== -->
-    <section class="stats" aria-label="Organization statistics">
+    <section class="stats" aria-label="Community statistics">
       <div class="container stats__grid">
         <div class="stat-card">
           <span class="stat-card__number" id="stat-members">0</span>
           <span class="stat-card__label">Members</span>
         </div>
         <div class="stat-card">
-          <span class="stat-card__number" id="stat-projects">0</span>
-          <span class="stat-card__label">Projects</span>
+          <span class="stat-card__number" id="stat-paths">0</span>
+          <span class="stat-card__label">Learning Paths</span>
         </div>
         <div class="stat-card">
-          <span class="stat-card__number" id="stat-commits">0</span>
-          <span class="stat-card__label">Commits</span>
+          <span class="stat-card__number" id="stat-resources">0</span>
+          <span class="stat-card__label">Resources</span>
         </div>
         <div class="stat-card">
-          <span class="stat-card__number" id="stat-stars">0</span>
-          <span class="stat-card__label">Stars</span>
+          <span class="stat-card__number" id="stat-achievements">0</span>
+          <span class="stat-card__label">Achievements</span>
         </div>
       </div>
     </section>
@@ -85,140 +87,309 @@
         <div class="about__grid">
           <div class="about__text">
             <p>
-              <strong>BSU Malvar Spartan</strong> is the official GitHub organization of the technology-focused
-              student community at Batangas State University — Malvar Campus. We bring together passionate
-              students to build real-world projects, sharpen their skills, and contribute to open source.
+              <strong>BSU Malvar Spartan</strong> is the official student technology organization at
+              Batangas State University — Malvar Campus. We're dedicated to helping fellow BSU students
+              grow their technical skills through shared knowledge, curated learning resources, and
+              a supportive community.
             </p>
             <p>
-              Our members collaborate across disciplines — software engineering, data science, UI/UX design,
-              and more — to create impactful solutions for the university and the broader community.
+              Whether you're just starting out in programming, exploring data science, or leveling up
+              your web development skills — you'll find learning paths, peer-shared experiences,
+              and inspiration from fellow Spartans right here.
             </p>
-            <a href="#contact" class="btn btn--primary btn--sm">Join Us</a>
+            <a href="#contribute" class="btn btn--primary btn--sm">Share Your Learning Path</a>
           </div>
           <div class="about__pillars">
             <div class="pillar">
-              <div class="pillar__icon" aria-hidden="true">💡</div>
-              <h3 class="pillar__title">Innovation</h3>
-              <p class="pillar__desc">We tackle real problems with creative, technology-driven solutions.</p>
+              <div class="pillar__icon" aria-hidden="true">📚</div>
+              <h3 class="pillar__title">Shared Knowledge</h3>
+              <p class="pillar__desc">Members contribute their learning paths so every Spartan can benefit from real experiences.</p>
             </div>
             <div class="pillar">
               <div class="pillar__icon" aria-hidden="true">🤝</div>
-              <h3 class="pillar__title">Collaboration</h3>
-              <p class="pillar__desc">We grow together through mentorship, pair programming, and open discussion.</p>
+              <h3 class="pillar__title">Peer Learning</h3>
+              <p class="pillar__desc">Learn from those who've walked the same path — your classmates and seniors.</p>
             </div>
             <div class="pillar">
               <div class="pillar__icon" aria-hidden="true">🏆</div>
-              <h3 class="pillar__title">Excellence</h3>
-              <p class="pillar__desc">We hold ourselves to high standards in code quality and continuous learning.</p>
+              <h3 class="pillar__title">Celebrate Growth</h3>
+              <p class="pillar__desc">Every milestone matters. We recognize and showcase the achievements of our community members.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== PROJECTS ===== -->
-    <section class="section projects" id="projects">
+    <!-- ===== LEARNING RESOURCES ===== -->
+    <section class="section resources" id="resources">
       <div class="container">
         <div class="section__header">
-          <span class="section__tag">Open Source</span>
-          <h2 class="section__title">Featured Projects</h2>
-          <p class="section__subtitle">Explore what our members are building.</p>
+          <span class="section__tag">Start Learning</span>
+          <h2 class="section__title">Learning Resources</h2>
+          <p class="section__subtitle">Curated topics to guide your learning journey as a Spartan.</p>
         </div>
-        <div class="projects__grid" id="projects-grid">
-          <!-- Cards injected by JS; fallback cards below -->
-          <div class="project-card project-card--placeholder">
-            <div class="project-card__header">
-              <span class="project-card__icon" aria-hidden="true">📁</span>
-              <span class="project-card__lang">HTML / CSS</span>
-            </div>
-            <h3 class="project-card__title">BSU Malvar Spartan Website</h3>
-            <p class="project-card__desc">Official organization website — the very page you're reading right now!</p>
-            <div class="project-card__footer">
-              <span class="project-card__stat">⭐ 1</span>
-              <a href="https://github.com/BSU-Malvar-Spartan/BSU-Malvar-Spartan.github.io"
-                 target="_blank" rel="noopener noreferrer" class="project-card__link">View →</a>
-            </div>
+        <div class="resources__grid">
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">🌐</div>
+            <h3 class="resource-card__title">Web Development</h3>
+            <p class="resource-card__desc">HTML, CSS, JavaScript, React, Node.js — build for the web from front to back.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener noreferrer">MDN Web Docs →</a></li>
+              <li><a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project →</a></li>
+              <li><a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">freeCodeCamp →</a></li>
+            </ul>
           </div>
-          <div class="project-card project-card--placeholder">
-            <div class="project-card__header">
-              <span class="project-card__icon" aria-hidden="true">📁</span>
-              <span class="project-card__lang">Coming Soon</span>
-            </div>
-            <h3 class="project-card__title">Your Project Here</h3>
-            <p class="project-card__desc">Have a project idea? Pitch it to the organization and start collaborating.</p>
-            <div class="project-card__footer">
-              <span class="project-card__stat">⭐ —</span>
-              <a href="#contact" class="project-card__link">Propose →</a>
-            </div>
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">🐍</div>
+            <h3 class="resource-card__title">Python &amp; Data Science</h3>
+            <p class="resource-card__desc">Python programming, data analysis with pandas, machine learning with scikit-learn.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://www.kaggle.com/learn" target="_blank" rel="noopener noreferrer">Kaggle Learn →</a></li>
+              <li><a href="https://cs50.harvard.edu/python/" target="_blank" rel="noopener noreferrer">CS50P →</a></li>
+              <li><a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">Real Python →</a></li>
+            </ul>
           </div>
-          <div class="project-card project-card--placeholder">
-            <div class="project-card__header">
-              <span class="project-card__icon" aria-hidden="true">📁</span>
-              <span class="project-card__lang">Coming Soon</span>
-            </div>
-            <h3 class="project-card__title">Your Project Here</h3>
-            <p class="project-card__desc">Join the team and contribute to exciting open-source projects.</p>
-            <div class="project-card__footer">
-              <span class="project-card__stat">⭐ —</span>
-              <a href="#contact" class="project-card__link">Propose →</a>
-            </div>
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">⚙️</div>
+            <h3 class="resource-card__title">Algorithms &amp; CS Fundamentals</h3>
+            <p class="resource-card__desc">Data structures, algorithms, and computer science concepts every developer needs.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://neetcode.io/" target="_blank" rel="noopener noreferrer">NeetCode →</a></li>
+              <li><a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener noreferrer">CS50x →</a></li>
+              <li><a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener noreferrer">GeeksforGeeks →</a></li>
+            </ul>
           </div>
-        </div>
-        <div class="projects__cta">
-          <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer" class="btn btn--outline">
-            See all repos on GitHub →
-          </a>
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">🎨</div>
+            <h3 class="resource-card__title">UI/UX Design</h3>
+            <p class="resource-card__desc">Design principles, Figma, prototyping, and user research for great digital experiences.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://www.figma.com/resources/learn-design/" target="_blank" rel="noopener noreferrer">Figma Learn →</a></li>
+              <li><a href="https://www.nngroup.com/articles/" target="_blank" rel="noopener noreferrer">Nielsen Norman Group →</a></li>
+              <li><a href="https://uxdesign.cc/" target="_blank" rel="noopener noreferrer">UX Collective →</a></li>
+            </ul>
+          </div>
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">☁️</div>
+            <h3 class="resource-card__title">Cloud &amp; DevOps</h3>
+            <p class="resource-card__desc">Git workflows, CI/CD, Docker, and cloud platforms like AWS and GCP.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://docs.github.com/en/get-started" target="_blank" rel="noopener noreferrer">GitHub Docs →</a></li>
+              <li><a href="https://www.docker.com/101-tutorial/" target="_blank" rel="noopener noreferrer">Docker 101 →</a></li>
+              <li><a href="https://aws.amazon.com/training/digital/" target="_blank" rel="noopener noreferrer">AWS Training →</a></li>
+            </ul>
+          </div>
+          <div class="resource-card">
+            <div class="resource-card__icon" aria-hidden="true">📱</div>
+            <h3 class="resource-card__title">Mobile Development</h3>
+            <p class="resource-card__desc">Build cross-platform mobile apps with Flutter, React Native, or native Android/iOS.</p>
+            <ul class="resource-card__links">
+              <li><a href="https://flutter.dev/learn" target="_blank" rel="noopener noreferrer">Flutter Docs →</a></li>
+              <li><a href="https://reactnative.dev/docs/getting-started" target="_blank" rel="noopener noreferrer">React Native →</a></li>
+              <li><a href="https://developer.android.com/courses" target="_blank" rel="noopener noreferrer">Android Courses →</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== TEAM ===== -->
-    <section class="section team" id="team">
+    <!-- ===== LEARNING PATHS ===== -->
+    <section class="section learning-paths" id="learning-paths">
       <div class="container">
         <div class="section__header">
-          <span class="section__tag">The People</span>
-          <h2 class="section__title">Meet the Team</h2>
-          <p class="section__subtitle">The Spartans who build, design, and lead.</p>
+          <span class="section__tag">Community Shared</span>
+          <h2 class="section__title">Member Learning Paths</h2>
+          <p class="section__subtitle">Real journeys from real Spartans — see what your fellow students are learning.</p>
         </div>
-        <div class="team__grid" id="team-grid">
-          <!-- Replace these cards with real member info -->
-          <div class="member-card">
-            <div class="member-card__avatar" aria-hidden="true">👤</div>
-            <h3 class="member-card__name">Your Name</h3>
-            <p class="member-card__role">Organization Lead</p>
-            <div class="member-card__links">
-              <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-              </a>
+        <div class="paths__grid" id="paths-grid">
+          <!-- Seed paths — new submissions are prepended via JS -->
+          <div class="path-card">
+            <div class="path-card__header">
+              <div class="path-card__avatar" aria-hidden="true">⚔️</div>
+              <div>
+                <h3 class="path-card__name">Spartan Member</h3>
+                <span class="path-card__track">Full-Stack Web Development</span>
+              </div>
+            </div>
+            <p class="path-card__description">
+              Started with HTML/CSS basics on freeCodeCamp, then moved to JavaScript. Currently building
+              projects with React on the front end and Node.js + Express on the back end. Planning to
+              learn PostgreSQL next.
+            </p>
+            <div class="path-card__footer">
+              <span class="path-card__tag">JavaScript</span>
+              <span class="path-card__tag">React</span>
+              <span class="path-card__tag">Node.js</span>
             </div>
           </div>
-          <div class="member-card">
-            <div class="member-card__avatar" aria-hidden="true">👤</div>
-            <h3 class="member-card__name">Your Name</h3>
-            <p class="member-card__role">Developer</p>
-            <div class="member-card__links">
-              <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-              </a>
+          <div class="path-card">
+            <div class="path-card__header">
+              <div class="path-card__avatar" aria-hidden="true">⚔️</div>
+              <div>
+                <h3 class="path-card__name">Spartan Member</h3>
+                <span class="path-card__track">Data Science &amp; Machine Learning</span>
+              </div>
+            </div>
+            <p class="path-card__description">
+              Learning Python through CS50P, then dived into pandas and matplotlib for data analysis.
+              Now working through fast.ai's machine learning course. Completed my first Kaggle
+              competition and placed in the top 30%.
+            </p>
+            <div class="path-card__footer">
+              <span class="path-card__tag">Python</span>
+              <span class="path-card__tag">pandas</span>
+              <span class="path-card__tag">Machine Learning</span>
             </div>
           </div>
-          <div class="member-card">
-            <div class="member-card__avatar" aria-hidden="true">👤</div>
-            <h3 class="member-card__name">Your Name</h3>
-            <p class="member-card__role">Designer</p>
-            <div class="member-card__links">
-              <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-              </a>
+          <div class="path-card">
+            <div class="path-card__header">
+              <div class="path-card__avatar" aria-hidden="true">⚔️</div>
+              <div>
+                <h3 class="path-card__name">Spartan Member</h3>
+                <span class="path-card__track">Mobile App Development</span>
+              </div>
             </div>
-          </div>
-          <div class="member-card member-card--join">
-            <div class="member-card__avatar member-card__avatar--plus" aria-hidden="true">+</div>
-            <h3 class="member-card__name">You?</h3>
-            <p class="member-card__role">Join the Spartans</p>
-            <a href="#contact" class="btn btn--primary btn--sm">Apply Now</a>
+            <p class="path-card__description">
+              Picked up Flutter after completing the Dart fundamentals course. Built a campus events
+              app as a personal project. Currently learning state management with Riverpod and Firebase
+              for the back end.
+            </p>
+            <div class="path-card__footer">
+              <span class="path-card__tag">Flutter</span>
+              <span class="path-card__tag">Dart</span>
+              <span class="path-card__tag">Firebase</span>
+            </div>
           </div>
         </div>
+        <div class="paths__cta">
+          <a href="#contribute" class="btn btn--primary">Add Your Learning Path →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACCOMPLISHMENTS ===== -->
+    <section class="section accomplishments" id="accomplishments">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Student Spotlight</span>
+          <h2 class="section__title">Spartan Accomplishments</h2>
+          <p class="section__subtitle">Celebrating the milestones, certifications, and wins of our members.</p>
+        </div>
+        <div class="accomplishments__grid" id="accomplishments-grid">
+          <!-- Seed accomplishments — new submissions are prepended via JS -->
+          <div class="achievement-card">
+            <div class="achievement-card__badge" aria-hidden="true">🏆</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__name">Spartan Member</h3>
+              <p class="achievement-card__title">AWS Certified Cloud Practitioner</p>
+              <p class="achievement-card__desc">Earned the AWS CCP certification after three months of self-study using A Cloud Guru and practice exams.</p>
+              <span class="achievement-card__date">2025</span>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-card__badge" aria-hidden="true">🥇</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__name">Spartan Member</h3>
+              <p class="achievement-card__title">1st Place — BatStateU Hackathon</p>
+              <p class="achievement-card__desc">Led a team of four to build a smart waste-management system that won first place at the university-level hackathon.</p>
+              <span class="achievement-card__date">2025</span>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-card__badge" aria-hidden="true">🎓</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__name">Spartan Member</h3>
+              <p class="achievement-card__title">Meta Front-End Developer Certificate</p>
+              <p class="achievement-card__desc">Completed all nine courses of the Meta Front-End Developer Professional Certificate on Coursera.</p>
+              <span class="achievement-card__date">2024</span>
+            </div>
+          </div>
+          <div class="achievement-card">
+            <div class="achievement-card__badge" aria-hidden="true">🌟</div>
+            <div class="achievement-card__body">
+              <h3 class="achievement-card__name">Spartan Member</h3>
+              <p class="achievement-card__title">Open-Source Contributor — freeCodeCamp</p>
+              <p class="achievement-card__desc">Had a pull request merged into freeCodeCamp's curriculum repository, improving documentation for thousands of learners.</p>
+              <span class="achievement-card__date">2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="accomplishments__cta">
+          <a href="#contribute" class="btn btn--primary">Share Your Accomplishment →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTRIBUTE ===== -->
+    <section class="section contribute" id="contribute">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Give Back</span>
+          <h2 class="section__title">Contribute to the Community</h2>
+          <p class="section__subtitle">Share your learning path or accomplishment to inspire fellow Spartans.</p>
+        </div>
+        <div class="contribute__tabs" role="tablist" aria-label="Contribution type">
+          <button class="contribute__tab contribute__tab--active" id="tab-path" aria-selected="true" role="tab" aria-controls="path-form">
+            📚 Add Learning Path
+          </button>
+          <button class="contribute__tab" id="tab-achievement" aria-selected="false" role="tab" aria-controls="achievement-form">
+            🏆 Add Accomplishment
+          </button>
+        </div>
+
+        <!-- Learning Path Form -->
+        <form class="contribute__form" id="path-form" novalidate role="tabpanel">
+          <div class="contribute__form-grid">
+            <div class="form-group">
+              <label for="path-name">Your Name</label>
+              <input type="text" id="path-name" name="name" placeholder="e.g. Juan dela Cruz" required />
+            </div>
+            <div class="form-group">
+              <label for="path-track">Learning Track</label>
+              <input type="text" id="path-track" name="track" placeholder="e.g. Full-Stack Web Development" required />
+            </div>
+            <div class="form-group form-group--full">
+              <label for="path-description">Describe Your Path</label>
+              <textarea id="path-description" name="description" rows="4"
+                placeholder="What did you start with? What resources helped? What are you learning now? Share your journey…" required></textarea>
+            </div>
+            <div class="form-group form-group--full">
+              <label for="path-tags">Tags <span class="form-hint">(comma-separated, e.g. Python, Django, PostgreSQL)</span></label>
+              <input type="text" id="path-tags" name="tags" placeholder="JavaScript, React, Node.js" />
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary">Share My Learning Path ⚔️</button>
+          <p class="contribute__form-note" id="path-form-status" aria-live="polite"></p>
+        </form>
+
+        <!-- Accomplishment Form -->
+        <form class="contribute__form contribute__form--hidden" id="achievement-form" novalidate role="tabpanel">
+          <div class="contribute__form-grid">
+            <div class="form-group">
+              <label for="ach-name">Your Name</label>
+              <input type="text" id="ach-name" name="name" placeholder="e.g. Juan dela Cruz" required />
+            </div>
+            <div class="form-group">
+              <label for="ach-title">Accomplishment Title</label>
+              <input type="text" id="ach-title" name="title" placeholder="e.g. AWS Certified Cloud Practitioner" required />
+            </div>
+            <div class="form-group">
+              <label for="ach-year">Year</label>
+              <input type="number" id="ach-year" name="year" placeholder="2025" min="2020" max="2099" required />
+            </div>
+            <div class="form-group">
+              <label for="ach-badge">Badge / Emoji</label>
+              <input type="text" id="ach-badge" name="badge" placeholder="🏆" maxlength="4" />
+            </div>
+            <div class="form-group form-group--full">
+              <label for="ach-desc">Tell Us About It</label>
+              <textarea id="ach-desc" name="desc" rows="4"
+                placeholder="Describe your accomplishment, how you achieved it, and what it means to you…" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn--primary">Share My Accomplishment ⚔️</button>
+          <p class="contribute__form-note" id="ach-form-status" aria-live="polite"></p>
+        </form>
       </div>
     </section>
 
@@ -228,7 +399,7 @@
         <div class="section__header">
           <span class="section__tag">Get Involved</span>
           <h2 class="section__title">Contact &amp; Join</h2>
-          <p class="section__subtitle">Interested in collaborating or joining the Spartans? Reach out!</p>
+          <p class="section__subtitle">Interested in joining the Spartans or have a question? Reach out!</p>
         </div>
         <div class="contact__grid">
           <div class="contact__info">
@@ -265,7 +436,7 @@
             </div>
             <div class="form-group">
               <label for="contact-message">Message</label>
-              <textarea id="contact-message" name="message" rows="4" placeholder="Tell us about yourself or your project idea…" required></textarea>
+              <textarea id="contact-message" name="message" rows="4" placeholder="Tell us about yourself or your question…" required></textarea>
             </div>
             <button type="submit" class="btn btn--primary btn--full">Send Message</button>
             <p class="contact__form-note" id="form-status" aria-live="polite"></p>
@@ -287,7 +458,10 @@
       <div class="footer__links">
         <a href="https://github.com/BSU-Malvar-Spartan" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#resources">Resources</a>
+        <a href="#learning-paths">Learning Paths</a>
+        <a href="#accomplishments">Accomplishments</a>
+        <a href="#contribute">Contribute</a>
         <a href="#contact">Contact</a>
       </div>
       <p class="footer__copy">&copy; <span id="footer-year"></span> BSU Malvar Spartan. Open source under the MIT License.</p>
